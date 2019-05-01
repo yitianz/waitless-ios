@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		6990ECE12269295400C087E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6990ECE02269295400C087E7 /* AppDelegate.swift */; };
-		6990ECE32269295400C087E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6990ECE22269295400C087E7 /* ViewController.swift */; };
+		6990ECE32269295400C087E7 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6990ECE22269295400C087E7 /* PhoneViewController.swift */; };
 		6990ECE62269295400C087E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6990ECE42269295400C087E7 /* Main.storyboard */; };
 		6990ECE82269295600C087E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6990ECE72269295600C087E7 /* Assets.xcassets */; };
 		6990ECEB2269295600C087E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6990ECE92269295600C087E7 /* LaunchScreen.storyboard */; };
 		6990ECF62269295600C087E7 /* DynamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6990ECF52269295600C087E7 /* DynamoTests.swift */; };
+		6991B460226D4981006BD151 /* MachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6991B45F226D4981006BD151 /* MachineViewController.swift */; };
+		6991B462226D6BF9006BD151 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6991B461226D6BF9006BD151 /* TimeViewController.swift */; };
+		6991B464226D6F2D006BD151 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6991B463226D6F2D006BD151 /* ConfirmViewController.swift */; };
+		6991B466226D734C006BD151 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6991B465226D734C006BD151 /* FinishViewController.swift */; };
+		6991B468226FBE77006BD151 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6991B467226FBE77006BD151 /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +33,7 @@
 /* Begin PBXFileReference section */
 		6990ECDD2269295400C087E7 /* Dynamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dynamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6990ECE02269295400C087E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6990ECE22269295400C087E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6990ECE22269295400C087E7 /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
 		6990ECE52269295400C087E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6990ECE72269295600C087E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6990ECEA2269295600C087E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +41,11 @@
 		6990ECF12269295600C087E7 /* DynamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6990ECF52269295600C087E7 /* DynamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamoTests.swift; sourceTree = "<group>"; };
 		6990ECF72269295600C087E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6991B45F226D4981006BD151 /* MachineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineViewController.swift; sourceTree = "<group>"; };
+		6991B461226D6BF9006BD151 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		6991B463226D6F2D006BD151 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		6991B465226D734C006BD151 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		6991B467226FBE77006BD151 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				6990ECE02269295400C087E7 /* AppDelegate.swift */,
-				6990ECE22269295400C087E7 /* ViewController.swift */,
+				6990ECE22269295400C087E7 /* PhoneViewController.swift */,
+				6991B45F226D4981006BD151 /* MachineViewController.swift */,
+				6991B461226D6BF9006BD151 /* TimeViewController.swift */,
+				6991B463226D6F2D006BD151 /* ConfirmViewController.swift */,
+				6991B465226D734C006BD151 /* FinishViewController.swift */,
+				6991B467226FBE77006BD151 /* Request.swift */,
 				6990ECE42269295400C087E7 /* Main.storyboard */,
 				6990ECE72269295600C087E7 /* Assets.xcassets */,
 				6990ECE92269295600C087E7 /* LaunchScreen.storyboard */,
@@ -197,8 +212,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6990ECE32269295400C087E7 /* ViewController.swift in Sources */,
+				6991B464226D6F2D006BD151 /* ConfirmViewController.swift in Sources */,
+				6991B460226D4981006BD151 /* MachineViewController.swift in Sources */,
+				6991B462226D6BF9006BD151 /* TimeViewController.swift in Sources */,
+				6990ECE32269295400C087E7 /* PhoneViewController.swift in Sources */,
+				6991B468226FBE77006BD151 /* Request.swift in Sources */,
 				6990ECE12269295400C087E7 /* AppDelegate.swift in Sources */,
+				6991B466226D734C006BD151 /* FinishViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
